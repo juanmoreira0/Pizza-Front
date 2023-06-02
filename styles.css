@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%; /* =10px */
+  }
+
+  /*HEADER*/
+
+.h-container {
+    width: 100%;
+    height: 15rem;
+    background-color: #222;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 26rem;
+    height: 10rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header {
+    width: 11rem;
+    height: 11rem;
+}
+
+.title-logo {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.title-logo .pizza {
+    color: #39B24A;
+}
+
+.title-logo .and {
+    color: #FFF;
+}
+
+.title-logo .front {
+    color: #FC200C;    ;
+}
+
+.nav {
+    margin-right: 3rem;
+    font-weight: 400;
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*MAIN*/
+
+.inner-container {
+    width: 100%;
+    height: 70rem;
+    margin: 8rem 0rem 8rem 0rem;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 70rem;
+    margin-left: 3rem;
+    background-image: url(img/delivery.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.title-left {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FC200C;
+    margin: 5rem 0rem 0rem 1.7rem;
+}
+
+.title-left span {
+    color: #FFF;
+}
+
+.right {
+    width: 50%;
+    height: 70rem;
+}
+
+.title-right {
+    color: #FC200C;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.box-container {
+    margin: 15rem auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.top {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.img {
+    background-image: url(img/PizzaFalling.jpg);
+    background-size: cover;
+    width: 9.5rem;
+    height: 13rem;
+}
+
+/*FOOTER*/
+
+.f-container {
+    height: 25rem;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-nav {   
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 3rem;
+}
+
+.footer-nav li {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.img-footer {
+    width: 11rem;
+    height: 11rem;
+}
+
+.title-logo-f {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.title-logo-f .pizza {
+    color: #39B24A;
+}
+
+.title-logo-f .and {
+    color: #FFF;
+}
+
+.title-logo-f .front {
+    color: #FC200C;    ;
+}
